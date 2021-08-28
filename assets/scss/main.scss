@@ -1,0 +1,15 @@
+@import 'config';
+@import 'variables';
+@import 'navbar';
+@import 'projects';
+@import 'custom_projects';
+@import 'about';
+@import 'home';
+@import 'contact';
+@import 'animations';
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: $primary-color;
+}
