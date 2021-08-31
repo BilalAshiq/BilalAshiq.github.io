@@ -7,14 +7,79 @@
     <title>Projects - Elliot</title>
     <link rel="stylesheet" href="./assets/css/main.min.css">
     <link rel="shortcut icon" href="./assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
         <style>
             .about-me{
                 color: white;
                 font-size: 30px;
                 margin: 20px;
-                box-shadow: 1px 1px 1px grey;
+                box-shadow: 5px 5px 10px #ff8c00;
                 padding: 8px;
                 font-family: tahoma;
+            }
+            .skills {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 30px auto;
+            }
+            .row {
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .skill {
+                width: 20%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin: 20px;
+            }
+            .skill i{
+                color: #ff8c00;
+                font-size: 10rem;
+            }
+            .progress-container {
+                width: 100%;
+                background: white;
+                height: 10px;
+                border-radius: 5px;
+                overflow: hidden; 
+            }
+            .progress {
+                height: 100%;
+                width: 25%;
+                background: #ff8c00;
+            }
+            .skill-name {
+                margin: 10px 0px;
+                color: white;
+            }
+            @media only screen and (max-width: 768px){
+                .row{
+                    flex-direction: column;
+                }
+                .skill {
+                    width: 100%;
+                }
+                .skill i{
+                    color: #ff8c00;
+                    font-size: 5rem;
+                }
+                .main {
+                    height: auto;
+                }
+                .about {
+                    text-align: center;
+                    font-size: 1.25rem;
+                    margin: 50px auto;
+                }
+                body, html {
+                }
             }
         </style>
 </head>
@@ -52,6 +117,38 @@
                 observing different web technologies, few of them led
                 me to start front-end development.
             </p>
+        </section>
+        <section class="skills">
+            <div class="row">
+                <div class="skill">
+                    <i class="devicon-html5-plain"></i>
+                    <div class="skill-name">HTML</div>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="devicon-css3-plain"></i>
+                    <div class="skill-name">CSS</div>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="devicon-javascript-plain"></i>
+                    <div class="skill-name">JavaScript</div>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="devicon-bootstrap-plain"></i>
+                    <div class="skill-name">Bootstrap</div>
+                    <div class="progress-container">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <script src="https://kit.fontawesome.com/de41999cf3.js"></script>
