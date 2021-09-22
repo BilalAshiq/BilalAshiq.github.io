@@ -6,11 +6,8 @@
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on Front-End Development
-- 🌱 I’m currently learning JavaScript
+- 🌱 I’m currently learning Front-End Development
 - 👯 I’m looking to collaborate on some Projects
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
-- 📫 How to reach me: Gmail
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 📫 How to reach me: Email
