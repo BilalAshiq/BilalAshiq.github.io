@@ -35,15 +35,15 @@
             <form class="form">
                 <fieldset class="form-group">
                     <label for=""><i class="fas fa-user"></i> Name</label>
-                    <input type="text" class="form-control" placeholder="Enter Name" id="name" required>
+                    <input minlength="5" maxlength="50" type="text" class="form-control" placeholder="Enter Name" id="name" required>
                 </fieldset>
                 <fieldset class="form-group">
                     <label for=""><i class="fas fa-envelope"></i> Email</label>
-                    <input type="text" class="form-control" placeholder="Enter Email" id="email" required>
+                    <input minlength="5" maxlength="50" type="text" class="form-control" placeholder="Enter Email" id="email" required>
                 </fieldset>
                 <fieldset class="form-group">
                     <label for=""><i class="fas fa-user"></i> Message</label>
-                    <textarea type="text" class="form-control" placeholder="Enter Message" id="message" required></textarea>
+                    <textarea minlength="4" maxlength="256" type="text" class="form-control" placeholder="Enter Message" id="message" required></textarea>
                 </fieldset>
                 <button class="send" id="sendMsg"><i class="fas fa-send"></i> Send</button>
             </form>
